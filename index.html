@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Instagram - alpernai</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+      .grid div > img {
+        width: 100%;
+        height: 400px;
+      }
+      .col-lg-4 {
+        padding: 5px 3px;
+        margin: 0;
+      }
+      
+      
+    </style>
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+          <form class="d-flex" role="search">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create a new post
+            </button>
+            <div class="btn-group" style="margin: 0px 10px;">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                <hr>
+                <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+              </ul>
+            </div>
+            </form>
+       </div>
+    </nav>
+
+    <ul class="nav nav-tabs d-flex justify-content-center mt-2 id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+          <i class="fa-solid fa-table-cells"></i>
+        </button>
+      </li>
+   <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+          <i class="fa-solid fa-square"></i>
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="container-fluid grid">
+          <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+           <img src="https://s1.1zoom.me/prev/528/Dogs_Australian_Shepherd_527660_600x400.jpg" alt="" />
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="https://st.depositphotos.com/1056393/1389/i/450/depositphotos_13896771-stock-photo-casino-of-monte-carlo.jpg" alt="" />
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <img  src="https://vellum.myshopify.com/cdn/shop/products/Owl-IMG_3152.jpg?v=1432665578" alt="" />
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <img  src="https://www.civitatis.com/f/francia/paris/subida-torre-eiffel-589x392.jpg" alt="" />
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/20191002_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Olympique_Lyonnais_by_Stepro_StP_0097.jpg/600px-20191002_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Olympique_Lyonnais_by_Stepro_StP_0097.jpg" alt="" />
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img  src="https://images.squarespace-cdn.com/content/v1/5840a3892e69cf423447057a/1700859978725-PDF09ANK1CVEEHBOPWWC/Lizzy-Biggs-Photography-family-snapshot-outdoor-600px.JPG" alt="" />
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                      <img  src=" https://media.istockphoto.com/id/609829292/photo/software-developer-programming-code-abstract-computer-script-code-selective-focus.jpg?s=612x612&w=is&k=20&c=4fgqxbosSSIuf1fxABPPWfzyis6PC6CXjFfPtg8p3AQ=" alt="" />
+                      </div>
+    
+           <div class="col-lg-4 col-md-6 col-sm-12">
+           <img  src="  https://st.depositphotos.com/1016440/2534/i/450/depositphotos_25344733-stock-photo-sunrise-at-the-beach.jpg" alt="" />
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+            <img  src="https://s1.1zoom.me/prev/405/404010.jpg" alt="" />
+            </div>
+           
+           
+          </div>
+     </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="container-fluid d-flex flex-column align-items-center">
+       
+          <div class="row mt-3">
+            <div class="col-12">
+        <div class="card">
+          <div class="d-flex justify-content-between">
+            <h2> My crazy dog spark! </h2>
+            <p> 08/26 </p>
+                   </div>
+          <img class="card-img-top"src="https://s1.1zoom.me/prev/528/Dogs_Australian_Shepherd_527660_600x400.jpg" alt="" />
+          <div class="card-body">
+         <strong> 204 likes </strong>
+          <p> This is the example of a very god photo that you can post on instagram </p>
+          </div>
+          
+        </div>	 
+      </div>	 
+    </div>	
+    
+    <div class="row mt-3">
+      <div class="col-12">
+  <div class="card">
+    <div class="d-flex justify-content-between">
+      <h2> Beatiful Monte Carlo city </h2>
+      <p> 10/20 </p>
+             </div>
+    <img class="card-img-top"src="https://st.depositphotos.com/1056393/1389/i/450/depositphotos_13896771-stock-photo-casino-of-monte-carlo.jpg" alt="" />
+    <div class="card-body">
+   <strong> 200 likes </strong>
+    <p> This is the example of a very god photo that you can post on instagram  </p>
+    </div>
+    
+  </div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> The nature is incredible </h2>
+  <p> 10/30 </p>
+         </div>
+<img class="card-img-top"src="https://vellum.myshopify.com/cdn/shop/products/Owl-IMG_3152.jpg?v=1432665578" alt="" />
+<div class="card-body">
+<strong> 402 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> The famous effiel tower </h2>
+  <p> 5/12 </p>
+         </div>
+<img class="card-img-top"src="https://www.civitatis.com/f/francia/paris/subida-torre-eiffel-589x392.jpg" alt="" />
+<div class="card-body">
+<strong> 508 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> This was a great match </h2>
+  <p> 10/20 </p>
+         </div>
+<img class="card-img-top"src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/20191002_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Olympique_Lyonnais_by_Stepro_StP_0097.jpg/600px-20191002_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Olympique_Lyonnais_by_Stepro_StP_0097.jpg" alt="" />
+<div class="card-body">
+<strong> 182 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> The family </h2>
+  <p> 15/25 </p>
+         </div>
+<img class="card-img-top"src="https://images.squarespace-cdn.com/content/v1/5840a3892e69cf423447057a/1700859978725-PDF09ANK1CVEEHBOPWWC/Lizzy-Biggs-Photography-family-snapshot-outdoor-600px.JPG" alt="" />
+<div class="card-body">
+<strong> 80 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> The great world of programming  </h2>
+  <p> 7/10 </p>
+         </div>
+<img class="card-img-top"src="https://media.istockphoto.com/id/609829292/photo/software-developer-programming-code-abstract-computer-script-code-selective-focus.jpg?s=612x612&w=is&k=20&c=4fgqxbosSSIuf1fxABPPWfzyis6PC6CXjFfPtg8p3AQ=" alt="" />
+<div class="card-body">
+<strong> 603 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2> A view of the beach </h2>
+  <p> 10/20 </p>
+         </div>
+<img class="card-img-top"src="https://st.depositphotos.com/1016440/2534/i/450/depositphotos_25344733-stock-photo-sunrise-at-the-beach.jpg" alt="" />
+<div class="card-body">
+<strong> 402 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+<div class="row mt-3">
+  <div class="col-12">
+<div class="card">
+<div class="d-flex justify-content-between">
+  <h2>The beautiful forest</h2>
+  <p> 14/30 </p>
+         </div>
+<img class="card-img-top"src="https://s1.1zoom.me/prev/405/404010.jpg" alt="" />
+<div class="card-body">
+<strong> 93 likes </strong>
+<p> This is the example of a very god photo that you can post on instagram  </p>
+</div>
+
+</div>	 
+</div>	 
+</div>	
+       </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Caption:</p>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Add the caption of your post here</label>
+              <button type="button" class="btn btn-outline-secondary mt-2">
+                <i class="fa-solid fa-camera"></i> 
+              </button>
+              <button type="button" class="btn btn-outline-secondary mt-2">
+                <i class="fa-solid fa-location-dot"></i>
+              </button>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/509c179d58.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
